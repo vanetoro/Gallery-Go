@@ -2,7 +2,6 @@ import React from 'react'
 import Gallery from './gallery'
 
 function Galleries(props) {
-    
 
     return (
         <div>
