@@ -26,7 +26,8 @@ class Main extends Component {
                     venueName: events[i].getElementsByTagName('Venue')[0].getElementsByTagName('Name')[0].textContent,
                     venueAddress: events[i].getElementsByTagName('Venue')[0].getElementsByTagName('Address')[0].textContent,
                     DateStart: events[i].getElementsByTagName('DateStart')[0].textContent,
-                    DateEnd: events[i].getElementsByTagName('DateEnd')[0].textContent
+                    DateEnd: events[i].getElementsByTagName('DateEnd')[0].textContent,
+                    imageUrl: events[i].getElementsByTagName('Image')[2].outerHTML.match(/\bhttp\S+/)[0].slice(0,-1)
 
 
             })
@@ -38,7 +39,7 @@ class Main extends Component {
     render() {
         // debugger
         return (
-            <div>
+            <div id="content" className="p-0 bg-white">
                 <Galleries events={this.state.events}/>
             </div>
         )
