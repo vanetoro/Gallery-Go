@@ -691,18 +691,7 @@ class App extends Component {
         </footer>
         
         {/* <!-- Style switcher - demo only - @todo: remove in production --> */}
-        <div className="colour-switcher">
-          <a href="#" className="colour-switcher-toggle" data-toggle="className" data-target=".colour-switcher"> <i className="fa fa-paint-brush"></i> </a>
-          <h5 className="text-uppercase my-0">
-            Theme Colours
-          </h5>
-          <hr />
-          <div className="theme-colours"> <a href="#green" className="green active" data-toggle="tooltip" data-placement="right" data-original-title="Green (Default)">Green</a> <a href="#red" className="red" data-toggle="tooltip" data-placement="right" data-original-title="Red">Red</a> <a href="#blue" className="blue" data-toggle="tooltip" data-placement="right" data-original-title="Blue">Blue</a> <a href="#purple" className="purple" data-toggle="tooltip" data-placement="right" data-original-title="Purple">Purple</a> <a href="#pink" className="pink" data-toggle="tooltip" data-placement="right" data-original-title="Pink">Pink</a> <a href="#orange" className="orange" data-toggle="tooltip" data-placement="right" data-original-title="Orange">Orange</a> <a href="#lime" className="lime" data-toggle="tooltip" data-placement="right" data-original-title="Lime">Lime</a> <a href="#blue-dark" className="blue-dark" data-toggle="tooltip" data-placement="right" data-original-title="Blue-dark">Blue-dark</a> <a href="#red-dark" className="red-dark" data-toggle="tooltip" data-placement="right" data-original-title="Red-dark">Red-dark</a> <a href="#brown" className="brown" data-toggle="tooltip" data-placement="right" data-original-title="Brown">Brown</a> <a href="#cyan-dark" className="cyan-dark" data-toggle="tooltip" data-placement="right" data-original-title="Cyan-dark">Cyan-dark</a> <a href="#yellow" className="yellow" data-toggle="tooltip" data-placement="right" data-original-title="Yellow">Yellow</a> <a href="#slate" className="slate" data-toggle="tooltip" data-placement="right" data-original-title="Slate">Slate</a> <a href="#olive" className="olive" data-toggle="tooltip" data-placement="right" data-original-title="Olive">Olive</a> <a href="#teal" className="teal" data-toggle="tooltip" data-placement="right" data-original-title="Teal">Teal</a> <a href="#green-bright" className="green-bright" data-toggle="tooltip" data-placement="right" data-original-title="Green-bright">Green-bright</a> </div>
-          <hr />
-          <p className="text-xs text-muted">Cookies are NOT enabled so colour selection is not persistent.</p>
-          <p className="text-xs my-0"><a href="index.html">Back to main homepage</a></p>
-          <p className="text-xs my-0"><a href="intro.html">Back to intro page</a></p>
-        </div>
+       
         {/* <!--Hidden elements - excluded from jPanel Menu on mobile--> */}
         <div className="hidden-elements js-off-canvas-exclude"></div>
        </div>
