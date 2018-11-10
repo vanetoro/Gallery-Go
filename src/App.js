@@ -8,8 +8,6 @@ class App extends Component {
   render() {
 
     return (
-
-
         <div className = 'App'>     
         <Header /> 
         {/* <Main /> */}
@@ -38,179 +36,8 @@ class App extends Component {
           </div>
         </div>
         
-        {/* <!-- ======== @Region: #content ======== --> */}
-        <div id="content" className="p-0 bg-white">
-          {/* <!-- News --> */}
-          <div className="container py-4 py-lg-5">
-            <h3 className="text-uppercase text-letter-spacing-sm my-0 text-primary font-weight-bold">
-              Latest News
-            </h3>
-            <hr className="mt-2 mb-3" />
-            <div className="row">
-              <div className="col-12 col-lg-4 mb-4 mb-lg-1">
-                {/* <!-- data-url can be set to the page URL of the news item --> */}
-                {/* <!-- News item 1 --> */}
-                <div className="card mb-4 border-0 flex-ew" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <img className="card-img img-fluid" data-src="https://source.unsplash.com/A5-Xr7WyktQ/540x320/" data-toggle="blazy" alt="Aliquam Cogo Commoveo Lucidus Magna Sagaciter Voco Vulpes Ymo"/>
-                  <div className="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
-                    <div>
-                      <h5 className="card-title mb-1">
-                        Aliquam Cogo Commoveo Lucidus Magna Sagaciter Voco Vulpes Ymo
-                      </h5>
-                      <p className="card-text text-uppercase text-white text-xs"><span className="text-primary">web</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jul 31 2018</p>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- News subitem 1 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/T6fDN60bMWY/100x100/" data-toggle="blazy" alt="Aptent Blandit Dignissim Dolor Minim Praemitto Quadrum Turpis Velit"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Aptent Blandit Dignissim Dolor Minim Praemitto Quadrum Turpis Velit
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">web</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jul 31 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/* <!-- News subitem 2 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/Edod-s9I1lA/100x100/" data-toggle="blazy" alt="Bene Eligo Feugiat Nutus Olim Quidne Roto Si Singularis"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Bene Eligo Feugiat Nutus Olim Quidne Roto Si Singularis
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">web</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jul 31 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/* <!-- News subitem 3 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/zdIU7W5G5Ts/100x100/" data-toggle="blazy" alt="Eum Exerci Gilvus Minim Pala Premo Sudo Validus"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Eum Exerci Gilvus Minim Pala Premo Sudo Validus
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">web</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jul 31 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-              </div>
-              <div className="col-12 col-lg-4 mb-4 mb-lg-1">
-                {/* <!-- data-url can be set to the page URL of the news item -->
-                <!-- News item 2 --> */}
-                <div className="card mb-4 border-0 flex-ew" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <img className="card-img img-fluid" data-src="https://source.unsplash.com/cpAKc-G6lPg/540x320/" data-toggle="blazy" alt="Abigo Causa Dolor Erat Esca Humo Neque Oppeto Scisco"/>
-                  <div className="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
-                    <div>
-                      <h5 className="card-title mb-1">
-                        Abigo Causa Dolor Erat Esca Humo Neque Oppeto Scisco
-                      </h5>
-                      <p className="card-text text-uppercase text-white text-xs"><span className="text-primary">identity</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Aug 11 2018</p>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- News subitem 1 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/cpAKc-G6lPg/100x100/" data-toggle="blazy" alt="Consectetuer Dignissim Dolore Feugiat Lenis Neque Quae Uxor"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Consectetuer Dignissim Dolore Feugiat Lenis Neque Quae Uxor
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">identity</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Aug 11 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/* <!-- News subitem 2 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/A9Vbvh_dMG0/100x100/" data-toggle="blazy" alt="Gilvus Hos Immitto Jumentum Nulla Suscipit Velit"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Gilvus Hos Immitto Jumentum Nulla Suscipit Velit
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">identity</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Aug 11 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/*  News subitem 3 */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/JN0SUcTOig0/100x100/" data-toggle="blazy" alt="Duis Facilisis Imputo Luptatum Modo Sit Vel Vicis"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Duis Facilisis Imputo Luptatum Modo Sit Vel Vicis
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">identity</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Aug 11 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-              </div>
-              <div className="col-12 col-lg-4 mb-4 mb-lg-1">
-                {/* <!-- data-url can be set to the page URL of the news item -->
-                <!-- News item 3 --> */}
-                <div className="card mb-4 border-0 flex-ew" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <img className="card-img img-fluid" data-src="https://source.unsplash.com/T6fDN60bMWY/540x320/" data-toggle="blazy" alt="Humo Ille Loquor Pagus Sagaciter Tincidunt Torqueo Tum"/>
-                  <div className="card-img-overlay bg-dark bg-op-5 text-white flex-valign-b">
-                    <div>
-                      <h5 className="card-title mb-1">
-                        Humo Ille Loquor Pagus Sagaciter Tincidunt Torqueo Tum
-                      </h5>
-                      <p className="card-text text-uppercase text-white text-xs"><span className="text-primary">graphics</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jun 2 2018</p>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- News subitem 1 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/JN0SUcTOig0/100x100/" data-toggle="blazy" alt="At Enim Exerci Inhibeo Loquor Rusticus Utinam Ymo"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      At Enim Exerci Inhibeo Loquor Rusticus Utinam Ymo
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">graphics</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jun 2 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/* <!-- News subitem 2 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/T6fDN60bMWY/100x100/" data-toggle="blazy" alt="Aliquam Euismod Immitto Quia Singularis Tamen Ullamcorper Vicis"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Aliquam Euismod Immitto Quia Singularis Tamen Ullamcorper Vicis
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">graphics</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jun 2 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-                {/* <!-- News subitem 3 --> */}
-                <div className="row row-hover py-1 py-lg-3 align-items-center" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
-                  <div className="col-3">
-                    <img className="img-fluid" data-src="https://source.unsplash.com/zdIU7W5G5Ts/100x100/" data-toggle="blazy" alt="Eligo Iaceo Neo Proprius Quidne Refero Tum Vindico"/>
-                  </div>
-                  <div className="col-9 pl-0">
-                    <h6 className="mb-1">
-                      Eligo Iaceo Neo Proprius Quidne Refero Tum Vindico
-                    </h6>
-                    <p className="text-uppercase text-xs mb-0"><span className="text-primary">graphics</span> <span className="px-1">/</span> <i className="far fa-clock"></i> Jun 2 2018</p>
-                  </div>
-                </div>
-                <hr className="my-1" />
-              </div>
-            </div>
-          </div>
+                
+          <Main />
           {/* <!-- Feature article MDR --> */}
           <div className="mb-4 mb-lg-6 py-7 text-center bg-dark overlay overlay-op-8" data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme" data-bg-img="https://images.unsplash.com/photo-1499334844006-d49df7788949?dpr=2&auto=format&fit=crop&w=1100&h=350&q=80&cs=tinysrgb&crop=">
             <div className="container">
@@ -563,10 +390,9 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </div>
-        {/* <!-- #Content -->
+        {/* /* <!-- #Content --> */}
         
-        <!-- ======== @Region: #footer ======== --> */}
+        {/* <!-- ======== @Region: #footer ======== --> */ }
         <footer id="footer" className="pt-4 pb-6">
           <div className="container">
             <div className="row">
@@ -689,12 +515,7 @@ class App extends Component {
           </div>
           <a href="#top" className="btn btn-icon btn-dark pos-fixed pos-b pos-r mr-3 mb-3 scroll-state-hidden" title="Back to top" data-scroll="scroll-state"><i className="fa fa-chevron-up"></i></a>
         </footer>
-        
-        {/* <!-- Style switcher - demo only - @todo: remove in production --> */}
-       
-        {/* <!--Hidden elements - excluded from jPanel Menu on mobile--> */}
-        <div className="hidden-elements js-off-canvas-exclude"></div>
-       </div>
+  </div>
     );
   }
 }
