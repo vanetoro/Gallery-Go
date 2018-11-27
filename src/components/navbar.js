@@ -14,12 +14,12 @@ class Navbar extends Component {
               <form className="search-form d-flex align-items-center container py-0">
                 <i className="fa fa-search fa-flip-horizontal icon-1x text-white"></i> 
                 <input type="text" name="search" className="form-control search h-100 pl-2" value="" placeholder="Search"/>
-                <a href="#" className="text-white" data-toggle="className" data-target='{"#search-overlay":{"actions":{"remove":"show"}}}'> <span className="sr-only">Close </span><i className="fa fa-times icon-1x"></i> </a>
+                <a className="text-white" data-toggle="className" data-target='{"#search-overlay":{"actions":{"remove":"show"}}}'> <span className="sr-only">Close </span><i className="fa fa-times icon-1x"></i> </a>
               </form>
             </div>
             {/* <!-- Mobile mini header --> */}
             <div className="container d-flex d-lg-none align-items-center py-2">
-              <a href="#" className="h4 text-white my-0 py-2">App<span className="font-weight-normal"> Strap</span></a>
+              <a className="h4 text-white my-0 py-2">App<span className="font-weight-normal"> Strap</span></a>
               {/* <!-- Mobile menu items --> */}
               <div className="ml-auto d-flex align-items-center">
                 {/* <!-- Mobile menu toggler --> */}
@@ -33,27 +33,27 @@ class Navbar extends Component {
               
               {/* <!-- Fade in brand on sticky --> */}
                 <div className="sticky-effect-fade-in sticky-effect-expand-w d-flex align-items-center">
-                    <a href="#" className="h4 text-white my-0 ml-3 mr-4 py-2">Gallery<span className="font-weight-normal">Go</span></a>
+                    <a className="h4 text-white my-0 ml-3 mr-4 py-2">Gallery<span className="font-weight-normal">Go</span></a>
                 </div>
               {/* <!--everything within this div is collapsed on mobile--> */}
               <div className="navbar-main collapse">
                 {/* <!--main navigation--> */}
                    <ul className="nav navbar-nav container dropdown-effect-fade pos-static">
                   
-                  <li className="nav-item"> <a href="#" className="nav-link">Home</a> </li>
+                  <li className="nav-item"> <a className="nav-link">Home</a> </li>
                   
                   {/* <!-- Fashion: megamenu with columns of links & feature item --> */}
                   <li className="nav-item dropdown dropdown-mega-menu">
-                    <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Fashion</a> 
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Fashion</a> 
                     {/* <!-- Dropdown Menu - mega menu--> */}
                     <div className="dropdown-menu">
                       <div className="container">
                         <div className="row">
-                          <div className="col-lg-3"> <a href="#" className="dropdown-item">Jackets</a> <a href="#" className="dropdown-item">Trousers</a> <a href="#" className="dropdown-item">T-shirts</a> <a href="#" className="dropdown-item">Shorts</a> <a href="#" className="dropdown-item">Swimwear</a> </div>
-                          <div className="col-lg-3"> <a href="#" className="dropdown-item">Suits</a> <a href="#" className="dropdown-item">T-shirts</a> <a href="#" className="dropdown-item">Shirts</a> <a href="#" className="dropdown-item">Trousers</a> <a href="#" className="dropdown-item">Shoes</a> </div>
-                          <div className="col-lg-3"> <a href="#" className="dropdown-item">Jackets</a> <a href="#" className="dropdown-item">T-shirts</a> <a href="#" className="dropdown-item">Trousers</a> <a href="#" className="dropdown-item">Shoes</a> <a href="#" className="dropdown-item">Sportswear</a> </div>
+                          <div className="col-lg-3"> <a  className="dropdown-item">Jackets</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Shorts</a> <a  className="dropdown-item">Swimwear</a> </div>
+                          <div className="col-lg-3"> <a  className="dropdown-item">Suits</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Shirts</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">Shoes</a> </div>
+                          <div className="col-lg-3"> <a  className="dropdown-item">Jackets</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">Shoes</a> <a className="dropdown-item">Sportswear</a> </div>
                           <div className="col-lg-3 d-none d-lg-flex">
-                            <a href="#" className="p-3 op-9 overlay overlay-gradient overlay-op-6 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/hiZ7wtdX-nI/285x185">
+                            <a className="p-3 op-9 overlay overlay-gradient overlay-op-6 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/hiZ7wtdX-nI/285x185">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm">Featured</p>
                               <p className="my-0 text-white font-weight-normal">The Ultimate Fashion Guide</p>
                             </a>
@@ -65,31 +65,31 @@ class Navbar extends Component {
                   
                   {/* <!-- Tech: grid with image thumbnails --> */}
                   <li className="nav-item dropdown dropdown-mega-menu">
-                    <a href="#" className="nav-link dropdown-toggle" id="elements-drop" data-toggle="dropdown" data-hover="dropdown">Tech</a> 
+                    <a className="nav-link dropdown-toggle" id="elements-drop" data-toggle="dropdown" data-hover="dropdown">Tech</a> 
                     {/* <!-- Dropdown Menu - mega menu--> */}
                     <div className="dropdown-menu">
                       <div className="container">
                         <div className="row">
                           <div className="col-lg-3 d-flex">
-                            <a href="#" className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/jUwvjOmCTWc/540x320/">
+                            <a className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/jUwvjOmCTWc/540x320/">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm"><i className="fa fa-clock-o"></i> May 30 2018</p>
                               <p className="my-0 text-white font-weight-normal">Abdo Aliquam Humo Immitto Interdico Lenis Molior</p>
                             </a>
                           </div>
                           <div className="col-lg-3 d-flex">
-                            <a href="#" className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/A5-Xr7WyktQ/540x320/">
+                            <a className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/A5-Xr7WyktQ/540x320/">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm"><i className="fa fa-clock-o"></i> Jul 31 2018</p>
                               <p className="my-0 text-white font-weight-normal">Abdo Commoveo Facilisis Immitto Mauris Quadrum Saluto</p>
                             </a>
                           </div>
                           <div className="col-lg-3 d-flex">
-                            <a href="#" className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/jdD8gXaTZsc/540x320/">
+                            <a className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/jdD8gXaTZsc/540x320/">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm"><i className="fa fa-clock-o"></i> Jul 25 2018</p>
                               <p className="my-0 text-white font-weight-normal">Abdo Abigo Melior Neque Praemitto Probo Turpis Ullamcorper Vereor</p>
                             </a>
                           </div>
                           <div className="col-lg-3 d-flex">
-                            <a href="#" className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/e2dDvdH3lIY/540x320/">
+                            <a className="p-3 pt-6 op-9 overlay overlay-gradient overlay-op-9 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/e2dDvdH3lIY/540x320/">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm"><i className="fa fa-clock-o"></i> Jun 29 2018</p>
                               <p className="my-0 text-white font-weight-normal">Capto Hendrerit Jumentum Pneum Similis Tation Volutpat</p>
                             </a>
@@ -101,7 +101,7 @@ class Navbar extends Component {
                   
                   {/* <!-- Mega menu example --> */}
                   <li className="nav-item dropdown dropdown-mega-menu ">
-                    <a href="#" className="nav-link dropdown-toggle" id="news-drop" data-toggle="dropdown" data-hover="dropdown">News</a> 
+                    <a className="nav-link dropdown-toggle" id="news-drop" data-toggle="dropdown" data-hover="dropdown">News</a> 
                     {/* <!-- Dropdown Menu - Mega Menu --> */}
                     <div className="dropdown-menu">
                       <div className="container">
@@ -139,7 +139,7 @@ class Navbar extends Component {
                     </div>
                   </li>
                   
-                  <li className="nav-item dropdown dropdown-mega-menu"> <a href="#" className="nav-link">Blog</a> </li>
+                  <li className="nav-item dropdown dropdown-mega-menu"> <a  className="nav-link">Blog</a> </li>
                 </ul>
               </div>
               {/* <!--/.navbar-collapse -->
