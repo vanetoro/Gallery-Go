@@ -21,6 +21,7 @@ class Main extends Component {
             for(var i = 0; i< events.length; i++){
                 // debugger
                 eventsObj.push({
+                    id: i,
                     eventName: events[i].getElementsByTagName('Name')[0].textContent,
                     eventDescription: events[i].getElementsByTagName('Description')[0].textContent,
                     venueName: events[i].getElementsByTagName('Venue')[0].getElementsByTagName('Name')[0].textContent,
@@ -39,6 +40,9 @@ class Main extends Component {
     render() {
         // debugger
         return (
+            <Switch>
+                <Route exact path="/exhibits/:id" component={exhibits} />
+            </Switch>
             <div id="content" className="p-0 bg-white">
                 <Galleries events={this.state.events}/>
             </div>
