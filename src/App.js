@@ -22,12 +22,12 @@ class App extends Component {
           {/* <!-- Image Banner: Use the the data-bg-img functionality to create a simple image banner Use spacer classNamees to make the banner larger with padding, allows for easy responsive changes too see: elements-ctas.htm To make the banner full height add the attributes: data-toggle="full-height" data-offset="#header" --> */}
           <div className="overlay overlay-gradient overlay-op-8 text-left py-5 pt-lg-10"
     data-animate="fadeIn"
-    data-bg-img="https://source.unsplash.com/hiZ7wtdX-nI/1200x450"
+    data-bg-img="http://www.studio601.org/images/studio601_gallery2.jpg"
     data-url="https://wrapbootstrap.com/theme/appstrap-responsive-website-template-WB0C6D0H4?ref=tme">
             <div data-scroll="scrollax" className="container px-3" data-animate="fadeInUp" data-animate-delay="0.4">
               <p className="text-xs mt-0 mb-1 mt-lg-10 text-white text-uppercase font-weight-bold"><span className="text-primary">Featured</span> <span className="px-1">/</span> <i className="far fa-clock"></i> June 18th 2017</p>
               <h2 className="display-4 text-white font-weight-bold">
-                The Ultimate Fashion Guide
+                The Ultimate Gallery Guide
               </h2>
               <h5 className="text-white font-weight-normal">
                 What's hot, what's not this winter, and we don't mean the weather!
