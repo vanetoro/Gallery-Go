@@ -44,18 +44,18 @@ class Navbar extends Component {
                   
                   {/* <!-- Fashion: megamenu with columns of links & feature item --> */}
                   <li className="nav-item dropdown dropdown-mega-menu">
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Fashion</a> 
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Area</a> 
                     {/* <!-- Dropdown Menu - mega menu--> */}
                     <div className="dropdown-menu">
                       <div className="container">
                         <div className="row">
-                          <div className="col-lg-3"> <a  className="dropdown-item">Jackets</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Shorts</a> <a  className="dropdown-item">Swimwear</a> </div>
-                          <div className="col-lg-3"> <a  className="dropdown-item">Suits</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Shirts</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">Shoes</a> </div>
+                          <div className="col-lg-3"> <a  className="dropdown-item">Chelsea 20th</a> <a  className="dropdown-item">Chelsea 21st</a> <a  className="dropdown-item">Chelsea 22nd</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item"></a> </div>
+                          <div className="col-lg-3"> <a  className="dropdown-item">Chelsea 28th - 33rd</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Shorts</a> <a  className="dropdown-item">Swimwear</a> </div>
                           <div className="col-lg-3"> <a  className="dropdown-item">Jackets</a> <a  className="dropdown-item">T-shirts</a> <a  className="dropdown-item">Trousers</a> <a  className="dropdown-item">Shoes</a> <a className="dropdown-item">Sportswear</a> </div>
                           <div className="col-lg-3 d-none d-lg-flex">
                             <a className="p-3 op-9 overlay overlay-gradient overlay-op-6 d-flex flex-valign-b flex-ew" data-toggle="blazy" data-src="https://source.unsplash.com/hiZ7wtdX-nI/285x185">
                               <p className="my-0 text-white font-weight-bold text-primary text-sm">Featured</p>
-                              <p className="my-0 text-white font-weight-normal">The Ultimate Fashion Guide</p>
+                              <p className="my-0 text-white font-weight-normal ">The Ultimate Fashion Guide</p>
                             </a>
                           </div>
                         </div>
