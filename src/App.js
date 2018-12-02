@@ -3,12 +3,16 @@ import './App.css';
 import Main from './containers/main'
 import Header from './components/header'
 
+
 class App extends Component {
   
   render() {
 
     return (
-        <div className = 'App'>     
+        <div className = 'App'>   
+
+ 
+
         <Header /> 
         {/* <Main /> */}
          <div className="page-loader" data-toggle="page-loader"></div>
